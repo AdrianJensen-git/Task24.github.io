@@ -1,0 +1,71 @@
+/*
+Task:                index.html
+Assigned to:         Admin
+Date assigned:       7 November 2022
+Due date:            7 November 2022
+Task complete?       Yes
+Task description:    create a file called index.html and use SCSS to edit my webpages
+*/
+
+
+body {
+  background-image: url(wallpaper.jpg);
+}
+
+.header {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  background-color: red;
+}
+
+.image1 {
+  display: block;
+  float: left;
+  height: 57px;
+}
+
+.link1 {
+  float: left;
+  display: block;
+  width: 300px;
+  border: 5px solid black;
+  background-color: silver;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+.link2 {
+  float: right;
+  display: block;
+  width: 300px;
+  border: 5px solid black;
+  background-color: silver;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  width: 650px;
+  height: 300px;
+  margin-left: 600px;
+}
+
+#dropDownMenu {
+  color: white;
+}
+
+#button1 {
+  margin-left: 50%;
+}
+
+.form {
+  color: white;
+}
+
+.form1 {
+  color: white;
+}

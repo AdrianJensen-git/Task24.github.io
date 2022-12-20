@@ -1,0 +1,159 @@
+<!--
+Task:                index.html
+Assigned to:         Admin
+Date assigned:       7 November 2022
+Due date:            7 November 2022
+Task complete?       Yes
+Task description:    create a file called index.html and use SCSS to edit my webpages
+-->
+
+
+<!-- Below is my opening html tag. -->
+<!DOCTYPE html>
+
+<html>
+    <Head>
+        <title> More Info </title>
+        <!-- Below is my css link. -->
+        <link rel = "stylesheet" href = "information.css"/>
+        <!-- Below is the link to the jQuery library. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </Head>
+
+    <body>
+        <div class="header">
+            <img src="Capture.PNG" class="image1">
+            More Info
+        </div>
+    </body>
+
+    <br>
+
+    <body>
+        <button id="Annimate"> Annimate the page. </button>
+
+        <div class="first">
+            <P> The current top 5 standings for the WDC are: </P>
+            <ol>
+                <li> Max Verstappen </li>
+                <li> Sergio Perez </li>
+                <li> Charles Leclerc </li>
+                <li> George Russel </li>
+                <li> Lewis Hamilton </li>
+            </ol>
+            <a href="https://www.formula1.com/en/results.html/2022/drivers.html"> For more info on the drivers positions. </a>
+            <br>
+            <button onclick="save3()"> Save for later </button>
+            <br>
+            <form>
+                <input type="radio" name="like/dislike" id="like">
+                <label for="like"> Like </label>
+                <input type="radio" name="like/dislike" id="dislike">
+                <label for="dislike"> dislike </label>
+            </form>
+            </div>
+    </body>
+
+            <br><br>
+
+    <body>
+        <div id="second">
+
+        <p> With some flaws, Max Verstappen's past 2 seasons with Red Bull have been sensational. To quote Max him self...</p>
+        <p id="quote"> "My ultimate dream is just to become world champion, and not only once. So that's my dream, and it doesn't matter which team it is." </p>
+        <button onclick="save4()"> Save for later </button>
+        <br>
+        <form>
+            <input type="radio" name="like/dislike" id="like">
+            <label for="like"> Like </label>
+            <input type="radio" name="like/dislike" id="dislike">
+            <label for="dislike"> dislike </label>
+        </form>
+        </div>
+    </body>
+
+            <br><br>
+    <body>
+        <div id="third">
+        <p> The cuurent top 5 standings for WCC are: </p>
+        <table>
+            <tr>
+                <th> Pos </th>
+                <th> Team </th>
+                <th> Points </th>
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td> Red Bull Racing RBPT </td>
+                <td> 696 </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> Ferrari </td>
+                <td> 487 </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td> Mercedes </td>
+                <td> 447 </td>
+            </tr>
+            <tr>
+                <td> 4 </td>
+                <td> Alpine Renault </td>
+                <td> 153 </td>
+            </tr>
+            <tr>
+                <td> 5 </td>
+                <td> Mclaren Mercedes </td>
+                <td> 146 </td>
+            </tr>
+        </table>
+        <br>
+        <button onclick="save5()"> Save for later </button>
+        <br>
+        <form>
+            <input type="radio" name="like/dislike" id="like">
+            <label for="like"> Like </label>
+            <input type="radio" name="like/dislike" id="dislike">
+            <label for="dislike"> dislike </label>
+        </form>
+        <br>
+        <a href="https://www.formula1.com/en/results.html/2022/team.html"> For more info on the constructors standings positions. </a>
+    </div>
+    <br>
+
+    <p> Who is your favourite out of the below 3 drivers? </p>
+    <!-- I used W3 Schools to help with the radio button. -->
+    <!-- https://www.w3schools.com/tags/att_input_type_radio.asp -->
+    <label> Max Verstappen </label>
+    <input type="radio" id="favourite-driver" name="max">
+    <br>
+    <label> Lewis Hamilton </label>
+    <input type="radio" id="favourite-driver" name="max">
+    <br>
+    <label> Charles Leclerc </label>
+    <input type="radio" id="favourite-driver" name="max">
+    <br>
+    <br>
+    <img src="max.jpg" class="image2">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <button onclick="save6()"> Save for later </button>
+    <br>
+    <form>
+        <input type="radio" name="like/dislike" id="like">
+        <label for="like"> Like </label>
+        <input type="radio" name="like/dislike" id="dislike">
+        <label for="dislike"> dislike </label>
+    </form>
+
+    <!-- Below is the external link to my js file. -->
+    <script src="information.js"></script>
+
+    <div class="link10">
+        <p> If you would like to see your saved items </p>
+        <a href="save for later.html"> Press me </a>
+    </div>
+
+    </body>
+
+</html>

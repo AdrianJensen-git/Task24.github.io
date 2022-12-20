@@ -1,0 +1,105 @@
+<!--
+Task:                index.html
+Assigned to:         Admin
+Date assigned:       7 November 2022
+Due date:            7 November 2022
+Task complete?       Yes
+Task description:    create a file called index.html and use SCSS to edit my webpages
+-->
+
+
+<!-- Below is my opening html tag. -->
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title> My Experience </title>
+        <!-- Below is my css link. -->
+        <link rel = "stylesheet" href = "experience.css"/>
+        <!-- Below is the link to the jQuery library. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    </head>
+
+    <body>
+        <div class="header">
+            <img src="Capture.PNG" class="image1">
+            My Experience
+        </div>
+    </body>
+
+<body>
+    <div id="1">
+        <img src="bahrain3.jpg" class="image" id="image1">
+
+        <div id="hello">
+        <p id="middle"> 
+        I have been a fan of F1 since I was a child. I grew up in Bahrain and would often go watch the F1 with my family.<br><br>
+        Watching it live is such a great experience, the cars are unbelievably loud and the sheer speed they are driving is ridiculous.
+
+        <br><br>
+
+         Not only did I watch the F1 live but for a school trip we went to the F1 track and the busses we were on took us for a ride around the track. <br><br>
+         If you think that was cool, read this....There is a building next to the track and on the very top floor is the kings chair for when he is watching live.<br><br>
+         All of us kids that went on the trip got a turn to sit in the kings chair.
+        </p>
+
+        <button onclick="save()"> Save for later </button>
+
+        <br>
+
+        <form>
+            <input type="radio" name="like/dislike" id="like">
+            <label for="like"> Like </label>
+            <input type="radio" name="like/dislike" id="dislike">
+            <label for="dislike"> dislike </label>
+        </form>
+    </div>
+        
+        
+
+        <br><br><br>
+
+        <!-- Below is the submite button. -->
+        <!-- I used W3 Schools to help with the submit button. -->
+        <!-- https://www.w3schools.com/html/html_forms.asp -->
+        <form>
+            <label for="header"> To submit your own experience see below </label>
+            <br>
+            <input type="text" id="header" name="header" value="">
+            <input type="submit" value="Submit">
+        </form>
+        
+
+        <br><br><br><br><br><br><br><br><br><br>
+        <p id="bottom"> The kings chair is on the top of the building above. <button onclick="save2()"> Save for later </button></p>
+
+        <!-- Below is the form to like or dislike. -->
+        <!-- I used W3 Schools to help with the submit button. -->
+        <!-- https://www.w3schools.com/html/html_forms.asp -->
+        <form class="form1">
+            <input type="radio" name="like/dislike" id="like">
+            <label for="like"> Like </label>
+            <input type="radio" name="like/dislike" id="dislike">
+            <label for="dislike"> dislike </label>
+        </form>
+
+
+        <div class="link10">
+            <p> If you would like to see your saved items </p>
+            <a href="save for later.html"> Press me </a>
+        </div>
+
+        <br>
+        <!-- Below is the button for a chained effect. -->
+        <button id="chainedEffect"> Click for chained effect. </button>
+
+    </div>
+
+    <!-- Below is the external link to my js file. -->
+    <script src="index.js"></script>
+
+</body>
+
+
+</html>
